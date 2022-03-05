@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: greentig-service
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+greentig-service:
+  greeting: "Olá"
+  default-value: "Mundo"
+  
